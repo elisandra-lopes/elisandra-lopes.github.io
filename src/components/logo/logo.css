@@ -1,0 +1,21 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  width: 253px;
+  height: 40px;
+  gap: 8px;
+}
+
+.logo__image {
+  width: 2.8rem;
+  height: 3rem;
+}
+
+.logo__name {
+  color: #dfb270;
+  text-align: center;
+  font: 400 normal 1.4rem/1;
+  text-transform: uppercase;
+}

@@ -1,0 +1,74 @@
+.advocacia-section {
+  display: flex;
+  padding: 4rem 0rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  font-weight: 300;
+
+  background: #011e31;
+}
+
+.adv-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.adv-container__title {
+  color: #dfb270;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.adv-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  gap: 2.5rem;
+  flex: 1 0 0;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5rem;
+  flex: 1 0 0;
+  width: 30%;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.description-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo-buttons {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.logo-adv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-adv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.3rem;
+}

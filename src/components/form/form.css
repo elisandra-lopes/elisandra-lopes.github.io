@@ -1,0 +1,43 @@
+.form-content-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  /* gap: 1rem; */
+}
+
+.input-form {
+  display: flex;
+  width: 48%;
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  align-items: center;
+  background: transparent;
+  color: #fff;
+  font-weight: 300;
+  border: none;
+}
+
+.textarea-form {
+  width: 100%;
+  height: 7rem;
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  background: transparent;
+  color: #fff;
+  font-weight: 300;
+  border: none;
+}
+
+.input-form,
+.textarea-form {
+  border: none;
+  border-bottom: 0.2px solid #3a4553;
+}
+
+.input-form::placeholder,
+.textarea-form::placeholder {
+  color: #fff;
+  font-weight: 300;
+  opacity: 12;
+}

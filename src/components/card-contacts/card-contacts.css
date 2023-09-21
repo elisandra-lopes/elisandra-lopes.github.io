@@ -1,0 +1,24 @@
+.lawyer {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.lawyer img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+
+  border-radius: 1.5rem;
+  display: block;
+}
+
+.laywer__name {
+  font-weight: bold;
+  margin-top: 20px;
+}
