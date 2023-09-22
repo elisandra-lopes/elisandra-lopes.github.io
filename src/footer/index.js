@@ -1,7 +1,7 @@
 import './footer.css';
 export default class Footer {
   async load() {
-    const response = await fetch('http://localhost:3000/footer');
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/footer`);
     return response.json();
   }
 

@@ -9,7 +9,7 @@ import '../components/button/button.css';
 
 export default class Header {
   async load() {
-    const response = await fetch('http://localhost:3000/header');
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/header`);
     return response.json();
   }
 
